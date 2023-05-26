@@ -20,7 +20,7 @@ const Splash = () => {
 
   return (
     <View style={styles.container}>
-       <Image source={require("../Images/diario.png")} />
+       <Image source={require("../assets/Images/diario.png")} />
       <Animatable.View animation="fadeIn" style={styles.waveContainer}>
         <WaveView
           style={styles.wave}
@@ -32,7 +32,7 @@ const Splash = () => {
           ]}
           animated={true}
         >
-          <Image source={require("../Images/diario.png")} />
+         
         </WaveView>
       </Animatable.View>
     </View>
